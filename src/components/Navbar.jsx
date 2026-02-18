@@ -14,4 +14,3 @@ export default function Navbar() {
     </nav>
   )
 }
-<Link to="/product/epson" className="cta">Explore Projectors</Link>

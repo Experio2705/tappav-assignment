@@ -1,10 +1,46 @@
 .nav{
   display:flex;
   justify-content:space-between;
-  padding:20px;
+  align-items:center;
+  padding:18px 24px;
   background:#111;
   color:white;
+  flex-wrap:wrap;
 }
+
+.logo{
+  font-size:20px;
+  font-weight:700;
+}
+
+.links{
+  display:flex;
+  gap:22px;
+}
+
 .links a{
-  margin-left:20px;
+  color:white;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .nav{
+    justify-content:center;
+    text-align:center;
+    gap:10px;
+  }
+
+  .logo{
+    width:100%;
+  }
+
+  .links{
+    width:100%;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px 18px;
+  }
+
 }

@@ -7,13 +7,16 @@ import "./App.css"
 
 export default function App() {
   return (
-    <>
-      <Navbar />
-      <Routes>
+  <>
+    <Navbar />
+    <div className="container">
+     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<Product />} />
       </Routes>
-      <Footer />
+      </div>
+    <Footer />
     </>
+
   )
 }
