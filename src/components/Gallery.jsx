@@ -1,8 +1,10 @@
-import { useState } from "react"
+import { useState,useEffect } from "react"
 
 export default function Gallery({ images }) {
   const [main, setMain] = useState(images[0])
-
+  useEffect(()=>{
+    setMain(images[0])
+  },[images])
   return (
     <div className="gallery">
       <img className="main-img" src={main} />
