@@ -1,0 +1,10 @@
+.nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+  background:#111;
+  color:white;
+}
+.links a{
+  margin-left:20px;
+}
