@@ -2,6 +2,16 @@
   box-sizing:border-box;
 }
 
+.app{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.main{
+  flex:1;
+}
+
 h1,h2,h3,h4{
   margin:0;
   font-weight:600;
