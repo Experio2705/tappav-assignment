@@ -1,88 +1,74 @@
-TappAV Frontend Assignment
+🎧 TappAV Frontend Prototype
 
-This project is a frontend prototype for the TappAV website built using React and plain CSS.
-The goal of the assignment was to demonstrate UI/UX thinking, page structure, responsiveness and component based architecture rather than backend functionality.
+A responsive frontend prototype of the TappAV audio-visual ecommerce website built using React and plain CSS.
 
-The website includes a Home Page and a dynamic Product Page featuring an Epson home projector along with other sample products.
+The project focuses on UI structure, navigation logic and user experience rather than backend functionality.
 
-Tech Stack
+🚀 Live Preview
 
-React (Vite)
-React Router DOM
-Plain CSS (no UI frameworks)
+(Add your Vercel link here)
 
-Features
-
+🧩 Pages Included
 Home Page
 
-Hero banner with call to action
+Hero banner with primary call-to-action
 
 Category navigation
 
-Featured product cards
+Featured products section
 
-Responsive layout
+Clean responsive layout
 
-Product Page
+Product Page (Dynamic)
 
-Dynamic routing using product id
+Image gallery with thumbnail switch
 
-Image gallery with thumbnail switching
+Key feature highlights
 
-Key features list
+Technical specification table
 
-Specifications table
+Mock cart and buy actions
 
-Add to cart and buy now mock actions
+🧠 Key Concepts Demonstrated
 
-Navigation
+Component-based architecture
 
-SPA navigation without page reload
+Dynamic routing using URL parameters
 
-Category cards navigate to relevant product
+Reusable product template
 
-Navbar routes mapped to representative products
+SPA navigation (no page reload)
 
-Responsive Design
+Responsive layout using plain CSS
 
-Mobile friendly layout
+Structured product information hierarchy
 
-Grid stacking on smaller screens
+🗺 Routing Structure
+Route Description
+/ Home Page
+/product/epson Epson projector product
+/product/headphone Headphone product
+/product/speaker Speaker product
 
-Flexible sections and spacing
+The product page is a reusable layout that loads different content based on the route parameter.
 
-Routing Structure
+🛠 Tech Stack
 
-/ → Home page
-/product/epson → Epson projector product page
-/product/headphone → Headphone product page
-/product/speaker → Speaker product page
+React (Vite)
 
-The product page is a reusable template that loads different data based on the URL parameter.
+React Router DOM
 
-Approach
+CSS (no frameworks)
 
-The homepage was structured to guide the user from brand introduction to product discovery.
-Instead of building static pages, a reusable product template was created and connected to dynamic routes to simulate a real ecommerce experience.
-
-The layout was designed mobile-first to ensure natural responsiveness.
-Component reusability was prioritized to keep the UI scalable and maintainable.
-
-Challenges Faced
-
-Maintaining navigation flow without a backend while keeping the experience realistic required dynamic routing and data mapping.
-Balancing visual presentation with plain CSS styling also required careful spacing and hierarchy planning.
-
-Running Locally
-
-Install dependencies
-
+📦 Installation
 npm install
-
-Start development server
-
 npm run dev
 
-Live Demo
+📐 Design Approach
 
-Add your deployed link here
+The homepage guides the user from brand awareness → category discovery → product exploration.
+
+Instead of creating multiple static pages, a single reusable product template was implemented using dynamic routing.
+This mimics real ecommerce behavior while keeping the project frontend-only.
+
+The layout was designed mobile-first to ensure responsiveness without relying on UI libraries.
